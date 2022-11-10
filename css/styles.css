@@ -1,0 +1,190 @@
+:root {
+    --title-text-color: 757575;
+    --primary-text-color: 212121;
+    --accent-color: 2196F3;
+    --primary-header-color: #ffffff;
+    --primary-link-color: #ffffff;
+    --primary-logo-color: #ffffff;
+    --primary-btn-color: #ffffff;
+    --primari-footer-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --primary-bg-color: #FFFFFF;
+    --title-bg-color: #f5f4fa;
+    --black-bg: #2f303a;
+  }
+  
+  body {
+    background: var(--primary-bg-color);
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  /* -----------------------logo-------------------- */
+  .logo-black {
+    font-family: "Raleway", cursive;
+    color: #000000;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+  }
+  .logo-bluу {
+    color: var(--accent-color);
+  }
+  
+  /*-----------------------site-nav-------------------*/
+  .site-nav .list {
+    color: var(--primary-text-color); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(14 / 16);
+    letter-spacing: 0.02em;
+  }
+  
+  .site-nav .list:hover,
+  .site-nav .list:focus {
+    color: var(--accent-color);
+  }
+  
+  /*-------------------------auth-nav--------------------*/
+  .auth-nav .list {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(14 / 16);
+    letter-spacing: 0.02em;
+  }
+  .auth-nav .list:hover,
+  .auth-nav .list:focus {
+    color: var(--accent-color);
+  }
+  
+  /*-------------------------hero----------------------*/
+  .hero {
+    background: var(--black-bg);
+  }
+  .hero-title {
+    color: var(--primary-header-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  /*------------------------section-------------------*/
+  .section-title {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+  }
+  .team-list .title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+  }
+  .team-list .link {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+  }
+  .section-team {
+    background: var(--title-bg-color);
+  }
+  
+  /*----------------------feature---------------------*/
+  .feature-list .title {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: calc(16 / 14);
+  }
+  .feature-list .link {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
+  
+  /*--------------------button--------------------- */
+  .button {
+    color: var(--primary-text-color);
+    background: var(--title-bg-color);
+    font-family: Roboto, sans-serif;
+  }
+  .button.primary {
+    color: var(--primary-btn-color);
+    background: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+  }
+  .button secondary {
+    background: var(--primary-bg-color);
+  }
+  .button.primary:hover,
+  .button.primary:focus {
+    color: var(--primary-text-color);
+    background: var(--title-bg-color);
+    font-family: inherit;
+  }
+  
+  .button:hover,
+  .button:focus {
+    color: var(--primary-btn-color);
+    background: var(--accent-color);
+  }
+  
+  /* --------------------portfolio--------------------*/
+  .portfolio-list .title {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+  }
+  .portfolio-list .link {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+  }
+  /*-------------------- footer-------------------- */
+  .page-footer {
+    background: var(--black-bg);
+  }
+  .logo-white {
+    color: var(--primary-logo-color);
+    font-family: "Raleway", cursive;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+  }
+  .auth-address {
+    color: var(--primary-link-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
+  .auth-address:hover,
+  .auth-address:focus {
+    color: var(--accent-color);
+  }
+  .auth-address .list {
+    color: var(--primari-footer-color);
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
+  .auth-address .list:hover,
+  .auth-address .list:focus {
+    color: var(--accent-color);
+  }
