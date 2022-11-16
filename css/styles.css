@@ -20,6 +20,8 @@
     letter-spacing: 0.03em;
   }
   ul {
+     padding: 0;
+     margin: 0;
     list-style: none;
   }
   a {
@@ -35,8 +37,17 @@
       white-space: nowrap;
       overflow: hidden;
     }
+  /*---------------------container-------------------*/
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    
+
+  }
   /* -----------------------logo-------------------- */
   .logo-black {
+    display: inline-block;
     font-family: "Raleway", cursive;
     color: #000000;
     font-size: 26px;
@@ -75,9 +86,13 @@
   
   /*-------------------------hero----------------------*/
   .hero {
+   margin-top: 0px;
+   margin-bottom: 0px;
     background: var(--black-bg);
   }
   .hero-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: var(--primary-header-color);
     font-weight: 900;
     font-size: 44px;
